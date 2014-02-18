@@ -98,7 +98,7 @@ Synth.new(\Bell, [\freq,  78.midicps, \decay, 2, \outBus , ~blurBusses[0], \amp,
 
 (
 
-	~oscOut = NetAddr.new("127.0.0.1", 8010);
+	~oscOut = NetAddr.new("192.168.1.200", 8010);
 
 	~ini.remove;
 	~ini=nil;
